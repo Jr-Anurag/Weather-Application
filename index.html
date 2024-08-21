@@ -15,8 +15,8 @@
         </div>
         <div class="weather-container">
             <!--grant location container-->
-            <div class="grant-location-container">
-                <img src="./Assets/location.png" width="80" height="80" loading="lazy">
+            <div class="sub-container grant-location-container">
+                <img src="./Assets/location.png" alt="location" width="80" height="80" loading="lazy">
                 <p>Grant Location Access</p>
                 <p>Allow Access To Get Weather Information</p>
                 <button class="btn" data-grantAccess>GRANT ACCESS</button>
@@ -24,15 +24,15 @@
 
             <!--search form-->
             <form class="form-container" data-searchForm>
-                <input placeholder="Search for city...">
-                <button class="btn">
-                 <img src="./Assets/search.jpeg" width="20" height="20" loading="lazy">
+                <input placeholder="Search for city..." data-searchInput>
+                <button class="btn" type="submit">
+                 <img src="./Assets/search.jpeg" alt="searchImage" width="20" height="20" loading="lazy">
                 </button>
              </form>
  
              <!--loding screen conatiner-->
              <div class="loading-container">
-                 <img src="./Assets/loading.gif" width="150" height="150">
+                 <img src="./Assets/loading.gif" alt="loading" width="150" height="150">
                  <p>Loading</p>
              </div>
  
@@ -48,19 +48,19 @@
                  <!--3 card parameter-->
                  <div class="parameter-container">
                      <div class="parameter">
-                         <img src="./Assets/wind.png">
+                         <img src="./Assets/wind.png" alt="windImage">
                          <p>WINDSPEED</p>
                          <p data-windspeed></p>
                      </div>
  
                      <div class="parameter">
-                         <img src="./Assets/humidity.png">
+                         <img src="./Assets/humidity.png" alt="HUMIDITY">
                          <p>HUMIDITY</p>
                          <p data-humidity ></p>
                      </div>
  
                      <div class="parameter">
-                         <img src="./Assets/clouds.png">
+                         <img src="./Assets/clouds.png" alt="cloudiness">
                          <p>CLOUDS</p>
                          <p data-cloudiness></p>
                      </div>
