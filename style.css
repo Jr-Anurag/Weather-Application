@@ -99,9 +99,7 @@ h1{
     letter-spacing: 0.75px;
 }
 
-.loading-container{
-    /* display: none; */
-}
+
 
 .loading-container.active{
     display: flex;
